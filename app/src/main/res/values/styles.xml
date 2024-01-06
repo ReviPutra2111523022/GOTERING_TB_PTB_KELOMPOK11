@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Spinner" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="hintEnabled">false</item>
+        <item name="endIconDrawable">@drawable/baseline_arrow_drop_down_24</item>
+        <item name="errorEnabled">false</item>
+    </style>
+</resources>

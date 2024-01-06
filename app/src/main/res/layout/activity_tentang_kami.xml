@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme" >
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/my_image_view"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/gotering"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOTERING.com"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Aplikasi ini dibuat dengan sepenuh hati untuk memudahkan para pelanggan dalam memesan makanan dengan porsi yang banyak untuk sebuah acara atau kegiatan yang memerlukan banyak porsi makanan."
+            android:textSize="20sp"
+            android:layout_marginHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Terimakasih sudah menggunakan aplikasi ini dan membeli makanan di tempat kami 🙏🙏🙏"
+            android:textSize="24sp"
+            android:layout_marginHorizontal="20dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

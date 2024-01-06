@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="namaTambahPegawai" type="id" />
+    <item name="input_namapegawai" type="id" />
+    <item name="stv_nama" type="id" />
+    <item name="input_alamatpegawai" type="id" />
+    <item name="stv_alamat" type="id" />
+    <item name="input_teleponpegawai" type="id" />
+    <item name="stv_telepon" type="id" />
+    <item name="input_jabatanpegawai" type="id" />
+    <item name="stv_jabatan" type="id" />
+    <item name="input_deskripsipegawai" type="id" />
+    <item name="stv_deskripsi" type="id" />
+    <item name="sbtn_save" type="id" />
+</resources>

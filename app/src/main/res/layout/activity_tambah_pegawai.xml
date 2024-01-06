@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity.AddPenggunaActivity">
+
+
+    <!--Nama-->
+    <TextView
+        android:id="@+id/namaTambahPegawai"
+
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Tambah Pegawai"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/input_namapegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Nama Pegawai"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/stv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namatext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:gravity="top|left"
+        android:hint="Input nama pegawai"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <!--Alamat-->
+    <TextView
+        android:id="@+id/input_alamatpegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Alamat "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/stv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namatext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:gravity="top|left"
+        android:hint="Input alamat pegawai"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <!--No Tlp-->
+    <TextView
+        android:id="@+id/input_teleponpegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Nomor Telepon "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/stv_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namatext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:gravity="top|left"
+        android:hint="Input nomor telepon pegawai"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <!--Jabatan-->
+    <TextView
+        android:id="@+id/input_jabatanpegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Jabatan"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/stv_jabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namatext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:gravity="top|left"
+        android:hint="Input posisi jabatan / pekerjaan pegawai"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+    <!--No Tlp-->
+    <TextView
+        android:id="@+id/input_deskripsipegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Deskripsi Jabatan / Pekerjaan"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/stv_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namatext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:gravity="top|left"
+        android:hint="Input deskripsi jataban / pekerjaan diatas"
+        android:minHeight="48dp"
+        android:padding="10dp"        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/sbtn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Simpan"
+        android:textSize="16sp" />
+
+</LinearLayout>
